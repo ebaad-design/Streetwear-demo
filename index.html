@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBAN EDGE | Official Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">URBAN EDGE</div>
+        <div class="nav-links">
+            <a href="#order-form">Shop</a>
+            <a href="https://wa.me/YOUR_NUMBER" class="cart-btn">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>COLLECTION <br><span>001 / 2026</span></h1>
+            <p>Premium streetwear designed for the concrete jungle. Limited drop.</p>
+            <a href="#order-form" class="shop-now">Explore Drop</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&w=1000" class="placeholder-img">
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>NEW ARRIVALS</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="img-box">
+                    <img src="https://images.pexels.com/photos/3026284/pexels-photo-3026284.jpeg?auto=compress&cs=tinysrgb&w=800">
+                </div>
+                <h3>Oversized Tee</h3>
+                <p>Rs. 4,500</p>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=800">
+                </div>
+                <h3>Cargo Pants</h3>
+                <p>Rs. 8,500</p>
+            </div>
+            <div class="card">
+                <div class="img-box">
+                    <img src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=800">
+                </div>
+                <h3>Street Hoodie</h3>
+                <p>Rs. 6,500</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="order-form">
+        <h2>PLACE AN ORDER</h2>
+        <form action="https://formspree.io/f/your-id-here" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <select name="product">
+                <option>Oversized Tee</option>
+                <option>Cargo Pants</option>
+                <option>Street Hoodie</option>
+            </select>
+            <textarea name="address" placeholder="Shipping Address & Phone" rows="4" required></textarea>
+            <button type="submit">Confirm Order</button>
+        </form>
+    </section>
+
+</body>
+</html>
